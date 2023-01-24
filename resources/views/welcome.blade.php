@@ -231,49 +231,49 @@
             <!-- About-->
             <section class="page-section" id="about">
                 <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">About</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <div class="text-center d-flex justify-items-center align-items-center flex-column">
+                        <h2 class="section-heading text-uppercase">About Us</h2>
+                        <h3 class="section-subheading text-muted w-50">VROSS meatshoppe seeks to serve the highest quality meats, cut to customer specifications and become the foremost specialty meats provider in every key cities and municipalities</h3>
                     </div>
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid w-100 h-100" src="{{ asset("dist/assets/img/about/vrossAbout4.jpg") }}" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>VROSS MeatShoppe</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted"> Is the trade name of VROSS CORPORATION and an establishment to tap the industry and was the fruit of hard work labor of the  proprietors. The place was strategically located at Ochoa Avenue., Butuan City.</p></div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid h-100 w-100" src="{{ asset("dist/assets/img/about/vrossAbout3.jpg") }}" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>1983-1987</h4>
+                                    <h4 class="subheading">An Business is Born</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted">The founders adopted and started their sole business of the same nature. The couple pounded hard labor, good management and strategic business plan for the success of the business with positive outcome, they started processing meats in 1987. The product lines include pork chorizo, longganisa, tocino, and skinless chorizo.!</p></div>
                             </div>
                         </li>
                         <li>
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid h-100 w-100" src="{{ asset("dist/assets/img/about/vrossAbout2.webp") }}" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2015</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>Mission</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body"><p class="text-muted">VROSS meat shoppe which seeks to serve the highest quality meats, cut to customer specifications and beacome the foremost speciality meats provider in every key cities and municipalities.</p></div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                            <div class="timeline-image"><img class="rounded-circle img-fluid w-100 h-100" src="{{ asset("dist/assets/img/about/vrossAbout1.webp") }}" alt="..." /></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2020</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>Vision</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">We envision becoming the number one Meat shoppe in key locations by selling the complete-line, highest quality and freshest farm produce.</p>
+                                    <p class="text-muted">We help every clientele of VROSS live happier and healthier lives by providing the freshest,tastiest and most nutritous local produce farms.</p>
+                                </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
@@ -301,8 +301,8 @@
                         <div class="col-lg-4">
                             <div class="team-member">
                                 <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                                <h4>Parveen Anand</h4>
-                                <p class="text-muted">Lead Designer</p>
+                                <h4>Butuan City</h4>
+                                <p class="text-muted">South Montilla Blvd.</p>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -311,8 +311,8 @@
                         <div class="col-lg-4">
                             <div class="team-member">
                                 <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                                <h4>Diana Petersen</h4>
-                                <p class="text-muted">Lead Marketer</p>
+                                <h4>Butuan City</h4>
+                                <p class="text-muted">Ochoa Street</p>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -321,38 +321,21 @@
                         <div class="col-lg-4">
                             <div class="team-member">
                                 <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                                <h4>Larry Parker</h4>
-                                <p class="text-muted">Lead Developer</p>
+                                <h4>Butuan City</h4>
+                                <p class="text-muted">Arujville Subdivision</p>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
+
+                        
                     </div>
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                    </div>
+                   
                 </div>
             </section>
             <!-- Clients-->
-            <div class="py-5">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                        </div>
-                        <div class="col-md-3 col-sm-6 my-3">
-                            <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             <!-- Contact-->
             <section class="page-section" id="contact">
                 <div class="container">
