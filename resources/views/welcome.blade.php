@@ -18,11 +18,13 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('dist/css/styles.css') }}" rel="stylesheet" />
-       
+        <livewire:styles/>
+        <livewire:scripts/>
     </head>
     <body class="antialiased">
+
        
-        
+
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
                 <div class="container">
                     <a class="navbar-brand" href="#page-top"><img src="{{ asset('dist/assets/img/navbar-logo.svg') }}" alt="..." /></a>
@@ -33,6 +35,7 @@
                    
                         <div class="collapse navbar-collapse gap-5" id="navbarResponsive">
                         <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                          
                             <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                             <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
                             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -79,7 +82,6 @@
                 </div>
             </div>
             </header>
-        
             <!-- Services-->
             <section class="page-section" id="services">
                 <div class="container">
@@ -159,7 +161,7 @@
                             </div>
                         </div>
 
-
+                        
 
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <!-- Portfolio item 3-->
