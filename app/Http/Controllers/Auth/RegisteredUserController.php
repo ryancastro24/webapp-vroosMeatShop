@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\Masteruser;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Registered;
@@ -20,7 +21,9 @@ class RegisteredUserController extends Controller
      */
     public function create(): View
     {
-        return view('auth.register');
+
+        $data = Masteruser::where("masterusers_name", "!=", "SuperAdmin" )->get();
+        return view('auth.register',compact('data'));
     }
 
     /**
@@ -40,6 +43,7 @@ class RegisteredUserController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'masteruser_id' => $request->masteruser_id
         ]);
 
         event(new Registered($user));

@@ -45,7 +45,7 @@
                             <td class="border-2">{{ $val->productDateExpected }}</td>
                         </tr>
 
-
+                        
                         @endif
 
                         @endforeach
