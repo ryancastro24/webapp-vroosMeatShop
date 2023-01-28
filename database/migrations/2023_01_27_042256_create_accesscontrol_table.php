@@ -13,9 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('masterusers', function (Blueprint $table) {
+        Schema::create('accesscontrol', function (Blueprint $table) {
             $table->id();
-            $table->string('masterusers_name');
             $table->timestamps();
         });
     }
@@ -27,6 +26,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('masterusers');
+        Schema::dropIfExists('accesscontrol');
     }
 };

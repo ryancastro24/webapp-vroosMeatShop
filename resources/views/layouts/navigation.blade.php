@@ -16,11 +16,30 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+
+
+                @if (Auth::user()->masteruser_id == 1 || Auth::user()->masteruser_id == 2 )
+                    
                 <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                     <x-nav-link :href="route('announcement')" :active="request()->routeIs('announcement')">
                         {{ __('Announcement') }}
                     </x-nav-link>
                 </div>
+
+
+                @endif
+
+                @if (Auth::user()->masteruser_id == 1 )
+                    
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('accessControl')" :active="request()->routeIs('accessControl')">
+                        {{ __('Users Access Control') }}
+                    </x-nav-link>
+                </div>
+
+
+                @endif
+
             </div>
 
             <!-- Settings Dropdown -->
@@ -75,7 +94,21 @@
             <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
+            @if (Auth::user()->masteruser_id == 1 || Auth::user()->masteruser_id == 2 )
+            <x-responsive-nav-link :href="route('announcement')" :active="request()->routeIs('announcement')">
+                {{ __('Announcement') }}
+            </x-responsive-nav-link>
+            @endif
+
+            @if (Auth::user()->masteruser_id == 1 )
+            <x-responsive-nav-link :href="route('accessControl')" :active="request()->routeIs('accessControl')">
+                {{ __('Users Access Control') }}
+            </x-responsive-nav-link>
+            @endif
         </div>
+        
+       
+                    
 
         <!-- Responsive Settings Options -->
         <div class="pt-4 pb-1 border-t border-gray-200">

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\APIController;
 use App\Http\Controllers\ProfileController;
+use App\Models\User;
 use App\Providers\AppServiceProvider;
 use Illuminate\Support\Facades\Route;
 
@@ -32,6 +33,13 @@ Route::get('/dashboard', [APIController::class,'getData'])->middleware(['auth', 
 Route::get('/announcement', function () {
     return view('announcement');
 })->middleware(['auth', 'verified'])->name('announcement');
+
+
+Route::get('/access_control', function () {
+    $data = User::join('masterusers', "users.masteruser_id", "masterusers.id")->select("*", 'users.id as my_id')->orderBy('masterusers.id', 'ASC')->get();
+    return view('accessControl',compact('data'));
+})->middleware(['auth', 'verified'])->name('accessControl');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

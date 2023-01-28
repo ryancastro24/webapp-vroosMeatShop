@@ -18,6 +18,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ asset('dist/css/styles.css') }}" rel="stylesheet" />
+
         <livewire:styles/>
         <livewire:scripts/>
     </head>
@@ -78,7 +79,7 @@
                 <div class="container">
                     <div class="masthead-subheading">Welcome To Vross MeatShop!</div>
                     <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                    <a class="btn btn-primary btn-xl text-uppercase" href="#services">SHOP NOW</a>
+                    <a class="btn btn-primary btn-xl text-uppercase" href="#products">SHOP NOW</a>
                 </div>
             </div>
             </header>
@@ -93,25 +94,25 @@
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
                                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-cart-plus fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="my-3">E-Commerce</h4>
+                            <h4 class="my-3">Add to Cart</h4>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
                                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-check fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="my-3">Responsive Design</h4>
+                            <h4 class="my-3">Confirm Order</h4>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                         <div class="col-md-4">
                             <span class="fa-stack fa-4x">
                                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                                <i class="fas fa-money-check-dollar fa-stack-1x fa-inverse"></i>
                             </span>
-                            <h4 class="my-3">Web Security</h4>
+                            <h4 class="my-3">Cash On Delivery</h4>
                             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                         </div>
                     </div>
